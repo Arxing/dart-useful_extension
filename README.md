@@ -120,7 +120,7 @@ bool r = func2?.invoke(100); /// compile errpr
 
 ## Kotlin Collection Extension
 
-### Iterable
+### Iterable\<E>
 
 | Property  | Type | R/W | 
 | --------- | ---- | --- |
