@@ -118,6 +118,23 @@ func2?.invoke(true); /// compile error
 bool r = func2?.invoke(100); /// compile errpr
 ```
 
+## Kotlin Collection Extension
+
+### Iterable
+
+| Property  | Type | R/W | 
+| --------- | ---- | --- |
+| lastIndex | int  | R   |
+
+| Return Type             | Method                                                 | 
+| ----------------------- | ------------------------------------------------------ |
+| Iterable\<IndexedValue> | withIndex()                                            | 
+| Iterable\<E>            | whereNot(bool test(E element))                         |
+| Iterable\<int>          | indexes()                                              |
+| E                       | elementAtOr(int index, \[E defaultValue = null])       |
+| E                       | firstOr(\[E defaultValue = null])                      |
+| E                       | lastOr(\[E defaultValue = null])                       |
+
 ## Dart Basic Extension
 
 

@@ -1,6 +1,6 @@
 name: useful_extension
 description: Integrate other language code style to extensions.
-version: 1.0.0
+version: 1.0.2+2
 homepage: https://github.com/Arxing/dart-useful_extension
 author: Arxing <meiswind711108@gmail.com>
 

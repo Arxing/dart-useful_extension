@@ -1,5 +1,3 @@
-part 'function_invokes.dart';
-
 extension $KotlinStyleExtension<T> on T {
   T let(void Function(T) func) {
     func(this);

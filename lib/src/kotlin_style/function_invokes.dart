@@ -1,5 +1,3 @@
-part of 'kotlin_style_extensions.dart';
-
 extension $FunctionP0Extension<R> on R Function() {
   R invoke() => this();
 }
